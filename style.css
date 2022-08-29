@@ -1,0 +1,84 @@
+header{
+    background: #d4d4d4;
+    height: 20%;
+}
+
+body{
+    
+    font-family: Poppins, sans-serif;
+}
+
+h1{
+    padding-left: 40px;
+    padding-top: 5px;
+    text-align: left;
+    color: #525252;
+}
+
+*{
+    font-family: Poppins, sans-serif;
+}
+
+main{
+    width: 100%;    
+}
+
+.roundBorder{
+    border-radius: 5px;
+}
+
+.row{
+    display: row;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column{
+display: flex;
+flex-direction: column;
+}
+
+
+.form_style{
+    padding-left: 40px;
+    padding-bottom: 50px;
+    background: #d4d4d4;
+
+}
+
+input{
+    border:none;
+
+}
+
+.addTaskButton{
+    background-color: #0f8500;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.orderButton {
+    border: none;
+    font-weight: bold;
+}
+
+.task{
+    margin: 1% 1%;
+    background-color: #0f8500;
+    padding: 40px 10px;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    align-content: center;
+}
+
+.done{
+    text-decoration: line-through;
+    color: #525252;
+    border: 5px;
+    background-color: white;
+}
+
+

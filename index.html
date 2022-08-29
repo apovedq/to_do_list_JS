@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class = "list roundBorder">
+
+    <div class = "column">
+        <header>
+            <h1> Task Manager by Andrés Poveda &#8987</h1>
+        </header>
+
+        <form class = "form_style" onsubmit="addNewTask(event)">
+            <input type="text" class="roundBorder" name="taskText" autocomplete="off" placeholder="New Task">
+            <button type="submit" class="addTaskButton roundBorder"> + </button>
+            <button type="submit" class="orderButton roundBorder" onclick="renderOrderedTask()"> Order </button>
+        </form>
+
+    </div>
+
+    <main id="taskContainer">
+
+    </main>
+
+    <script src="index.js" async defer></script>
+</body>
+
+</html>
